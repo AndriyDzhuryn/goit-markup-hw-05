@@ -574,7 +574,6 @@ img {
 /* ========== MODAL OVERLAY ========== */
 .modal-overlay {
   width: 100%;
-  position: relative;
   background: rgba(46, 47, 66, 0.4);
   position: fixed;
   top: 0;
