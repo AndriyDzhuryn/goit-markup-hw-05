@@ -520,7 +520,7 @@ img {
 
 .form-subscribe {
   display: flex;
-  column-gap: 24px;
+  gap: 24px;
 }
 
 .form-input-subscribe::placeholder {
@@ -528,15 +528,14 @@ img {
   font-size: 12px;
   line-height: 2;
   letter-spacing: 0.04em;
-  color: #fff;
+  color: #ffffff;
 }
 
 .form-input-subscribe {
-  font-weight: 400;
   font-size: 12px;
   line-height: 2;
   letter-spacing: 0.04em;
-  color: #fff;
+  color: #ffffff;
   border: 1px solid #ffffff;
   border-radius: 4px;
   width: 264px;
@@ -785,7 +784,7 @@ img {
 }
 
 .form-link-license {
-  line-height: 1.33333;
+  line-height: 1.33;
   text-decoration: underline;
   text-decoration-skip-ink: none;
   color: #4d5ae5;

@@ -499,15 +499,16 @@
             <label
               class="form-label-subscribe visually-hidden"
               for="email-subscribe"
-            ></label>
-            <input
-              class="form-input-subscribe"
-              id="email-subscribe"
-              type="email"
-              name="input-subscribe"
-              placeholder="E-mail"
-              required
-            />
+              ><input
+                class="form-input-subscribe"
+                id="email-subscribe"
+                type="email"
+                name="input-subscribe"
+                placeholder="E-mail"
+                required
+              />
+            </label>
+
             <button class="form-btn-subscribe" type="submit">
               Subscribe
               <svg class="icon-send" width="24" height="24">
@@ -600,17 +601,16 @@
               value="true"
               required
             />
-            <label class="form-checkbox" for="user-privacy"
+            <label class="form-checkbox" for="user-privacy">
+              <span class="container-icon-checkbox">
+                <svg class="checkbox-icon-license" width="10" height="8">
+                  <use href="./images/icons.svg#checkmark"></use>
+                </svg> </span
               >I accept the terms and conditions of the&nbsp;<a
                 class="form-link-license"
                 href=""
                 >Privacy Policy</a
               >
-              <span class="container-icon-checkbox">
-                <svg class="checkbox-icon-license" width="10" height="8">
-                  <use href="./images/icons.svg#checkmark"></use>
-                </svg>
-              </span>
             </label>
           </div>
           <button type="submit" class="modal-form-btn">Send</button>
